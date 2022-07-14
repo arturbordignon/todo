@@ -1,0 +1,75 @@
+.info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.875rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.created {
+  color: var(--blue-light);
+}
+
+.done {
+  color: var(--purple-light);
+}
+
+.createdLeftTask {
+  font-size: 0.75rem;
+  padding: 0.125rem 0.5rem;
+  background: var(--gray-400);
+  border-radius: 999px;
+  margin-left: 0.5rem;
+  color: var(--gray-300);
+}
+
+.createdRightTask {
+  font-size: 0.75rem;
+  padding: 0.125rem 0.5rem;
+  background: var(--gray-400);
+  border-radius: 999px;
+  margin-left: 0.5rem;
+  color: var(--gray-300);
+}
+
+.input {
+  justify-content: center;
+}
+
+.formTask {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: -1.75rem;
+  margin-bottom: 4rem;
+}
+
+.formTask input {
+  display: flex;
+  background: var(--gray-500);
+  border: 1px solid var(--gray-700);
+  border-radius: 8px;
+  padding: 1rem;
+  width: 100%;
+  color: var(--white);
+  resize: none;
+  line-height: 0.75;
+}
+
+.formTask button {
+  display: flex;
+  align-items: center;
+  padding: 1rem 1rem;
+  border-radius: 8px;
+  border: 0;
+  background: var(--blue-dark);
+  color: var(--white);
+  cursor: pointer;
+}
+
+.formTask button:hover {
+  background: var(--blue-light);
+}
+
+.formTask button svg {
+  margin-left: 0.5rem;
+}

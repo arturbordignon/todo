@@ -1,0 +1,45 @@
+.taskList {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background: var(--gray-500);
+  border-radius: 8px;
+  border: 1px solid var(--gray-400);
+  margin-bottom: 0.75rem;
+}
+
+.contentImgAndP {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.contentImgAndP img {
+  cursor: pointer;
+}
+
+.contentImgAndP img:hover {
+  background: var(--blue-dark);
+  border-radius: 999px;
+}
+
+.taskList button {
+  margin-left: 0.75rem;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  color: var(--gray-300);
+  border-radius: 5px;
+  line-height: 0;
+}
+
+.taskList button:hover {
+  background: var(--gray-400);
+  color: var(--danger);
+  align-items: center;
+  padding: 0.3125rem;
+}
+
+.DoneCircle {
+  text-decoration: line-through;
+}
